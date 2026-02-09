@@ -34,9 +34,11 @@
   },
   "name":"Jack the Voyager",
   "resources":[
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
+    {"id":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},},
+    {"id":{"name":"obj_jack","path":"objects/obj_jack/obj_jack.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},},
+    {"id":{"name":"spr_jack","path":"sprites/spr_jack/spr_jack.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
