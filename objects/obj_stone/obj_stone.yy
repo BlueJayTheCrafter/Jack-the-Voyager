@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sword",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_jack","path":"objects/obj_jack/obj_jack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_stone",
+  "eventList":[],
   "managed":true,
-  "name":"obj_sword",
+  "name":"obj_stone",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_sword",
-    "path":"sprites/spr_sword/spr_sword.yy",
+    "name":"spr_stone",
+    "path":"sprites/spr_stone/spr_stone.yy",
   },
   "spriteMaskId":null,
   "visible":true,

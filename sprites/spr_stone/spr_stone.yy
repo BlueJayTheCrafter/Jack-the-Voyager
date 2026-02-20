@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_game_background",
+  "%Name":"spr_stone",
   "bboxMode":0,
-  "bbox_bottom":767,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":1343,
-  "bbox_top":0,
+  "bbox_right":63,
+  "bbox_top":47,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"da0761e6-86ac-44f7-b8d7-bff172bfd8fc","name":"da0761e6-86ac-44f7-b8d7-bff172bfd8fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0f51736a-f47d-474a-aaf6-364cd013759b","name":"0f51736a-f47d-474a-aaf6-364cd013759b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":768,
+  "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c5a90e58-d9c7-4cc3-b50a-93c868c17163","blendMode":0,"displayName":"default","isLocked":false,"name":"c5a90e58-d9c7-4cc3-b50a-93c868c17163","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"acc51f5a-b863-4bf5-b567-693575d1a266","blendMode":0,"displayName":"default","isLocked":false,"name":"acc51f5a-b863-4bf5-b567-693575d1a266","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_game_background",
+  "name":"spr_stone",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_game_background",
+    "%Name":"spr_stone",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_game_background",
+    "name":"spr_stone",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da0761e6-86ac-44f7-b8d7-bff172bfd8fc","path":"sprites/spr_game_background/spr_game_background.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7acc7560-91fc-4f01-8a5b-ebd7fdab3743","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f51736a-f47d-474a-aaf6-364cd013759b","path":"sprites/spr_stone/spr_stone.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b01623f1-f5b1-4f87-9c6b-9d6ffe4efe90","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1344,
+  "width":64,
 }
