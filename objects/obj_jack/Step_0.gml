@@ -34,3 +34,16 @@ if (place_meeting(x, y + vspd, obj_stone)) {
 }
 
 y += vspd
+
+switch(room) {
+	case Room2:
+	
+	if(mouse_check_button(mb_left)) {
+		if(shootCooldown <= 0) {
+			instance_create_layer(x, y, "instances", obj_sword2);
+			shootCooldown = 45;
+		}
+	}
+}
+
+shootCooldown -= 1;
