@@ -36,6 +36,24 @@ if (place_meeting(x, y + vspd, obj_stone)) {
 y += vspd
 
 switch(room) {
+	case Room1:
+	
+	PickUp = mouse_check_button(mb_left);
+	
+	event_inherited();
+	
+	if(PickUp) {
+		if(holdingweapon(obj_sword)) {		
+			if(shootCooldown <= 0) {
+				instance_create_layer(x, y, "instances", obj_sword2);
+				shootCooldown = 45;
+			}
+		}
+	}
+	
+
+	break;
+	
 	case Room2:
 	
 	if(mouse_check_button(mb_left)) {

@@ -38,6 +38,7 @@
     {"id":{"name":"obj_cobblestone","path":"objects/obj_cobblestone/obj_cobblestone.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_enemy_wheel","path":"objects/obj_enemy_wheel/obj_enemy_wheel.yy",},},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},},
     {"id":{"name":"obj_jack","path":"objects/obj_jack/obj_jack.yy",},},
     {"id":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},},
