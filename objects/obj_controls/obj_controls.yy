@@ -1,16 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sword",
-  "eventList":[],
+  "%Name":"obj_controls",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_sword",
+  "name":"obj_controls",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_sword",
-    "path":"sprites/spr_sword/spr_sword.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
