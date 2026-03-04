@@ -34,7 +34,7 @@
   },
   "name":"Jack the Voyager",
   "resources":[
-    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},},
     {"id":{"name":"obj_button_abort","path":"objects/obj_button_abort/obj_button_abort.yy",},},
     {"id":{"name":"obj_button_assist","path":"objects/obj_button_assist/obj_button_assist.yy",},},
@@ -55,6 +55,7 @@
     {"id":{"name":"rm_game1","path":"rooms/rm_game1/rm_game1.yy",},},
     {"id":{"name":"rm_game2","path":"rooms/rm_game2/rm_game2.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"id":{"name":"seq_sword","path":"sequences/seq_sword/seq_sword.yy",},},
     {"id":{"name":"spr_backgound2","path":"sprites/spr_backgound2/spr_backgound2.yy",},},
     {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},},
