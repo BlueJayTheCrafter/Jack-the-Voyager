@@ -30,7 +30,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_enemy_wheel",
     "path":"sprites/spr_enemy_wheel/spr_enemy_wheel.yy",
