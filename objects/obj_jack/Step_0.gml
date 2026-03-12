@@ -47,3 +47,14 @@ switch(room) {
 }
 
 shootCooldown -= 1;
+
+if (!invincible) {
+    var move = key_d - key_a;
+    hsp = move * walkspeed;
+} else {
+    hsp = lerp(hsp, 0, 0.1); 
+    vsp = lerp(vsp, 0, 0.1); 
+}
+
+x += hsp;
+y += vsp;

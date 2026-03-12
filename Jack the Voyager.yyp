@@ -56,7 +56,6 @@
     {"id":{"name":"rm_game1","path":"rooms/rm_game1/rm_game1.yy",},},
     {"id":{"name":"rm_game2","path":"rooms/rm_game2/rm_game2.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"id":{"name":"custom_functions","path":"scripts/custom_functions/custom_functions.yy",},},
     {"id":{"name":"seq_sword","path":"sequences/seq_sword/seq_sword.yy",},},
     {"id":{"name":"spr_backgound2","path":"sprites/spr_backgound2/spr_backgound2.yy",},},
     {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},},

@@ -14,7 +14,6 @@
     {"name":"inst_6DF2ED6B","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_6DF34A54","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_673FD0D1","path":"rooms/rm_game2/rm_game2.yy",},
-    {"name":"inst_4BC3D080","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_227ACA25","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_A47D72A","path":"rooms/rm_game2/rm_game2.yy",},
     {"name":"inst_1F631A58","path":"rooms/rm_game2/rm_game2.yy",},
@@ -47,7 +46,6 @@
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_673FD0D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_673FD0D1","objectId":{"name":"obj_enemy_wheel","path":"objects/obj_enemy_wheel/obj_enemy_wheel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":704.0,},
-        {"$GMRInstance":"v4","%Name":"inst_4BC3D080","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4BC3D080","objectId":{"name":"obj_jack","path":"objects/obj_jack/obj_jack.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":704.0,},
         {"$GMRInstance":"v4","%Name":"inst_227ACA25","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_227ACA25","objectId":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"inst_A47D72A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A47D72A","objectId":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"inst_1F631A58","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F631A58","objectId":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":768.0,},
