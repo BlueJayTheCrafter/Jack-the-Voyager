@@ -48,13 +48,48 @@ switch(room) {
 
 shootCooldown -= 1;
 
-if (!invincible) {
-    var move = key_d - key_a;
-    hsp = move * walkspeed;
-} else {
-    hsp = lerp(hsp, 0, 0.1); 
-    vsp = lerp(vsp, 0, 0.1); 
+switch(state){
+	
+	#region
+	
+	case PLAYERRSTATE.DEFAULT: 
+	
+		keyright = keyboard_check(ord("A"));
+		keyleft = keyboard_check(ord("D"));
+		keydown = keyboard_check(vk_numpad2);
+		keyup = keyboard_check(vk_numpad8);
+		keyattack = mouse_check_button(mb_left);
+		
+		if (keyattack) state = PLAYERRSTATE.ATTACK;
+		
+		inputmag = (keyright - keyleft != 0);
+		
+		if(inputmag){
+			
+			inputdir = point_direction(0, 0, (keyright - keyleft), (keydown - keyup));
+			
+			switch(inputdir){
+				
+				case 0: dirfacing = 0; break;
+				case 90: dirfacing = 90; break; 
+				case 180:dirfacing = 180; break;
+				case 270: dirfacing = 270; break;
+		}
+	}
+		hspd = lengthdir_x(walkspeed * inputmag, inputdir);
+		vspd = lengthdir_y(walkspeed * inputmag, inputdir);
+		
+		x += hspd;
+		y += vspd;
+		
+		if(inputmag){
+			
+			switch(dirfacing){
+				
+				case 0: 
+				case 90:
+				case 180:
+				case 270:
+		}
+	}
 }
-
-x += hsp;
-y += vsp;
