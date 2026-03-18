@@ -81,15 +81,13 @@ switch(state){
 		
 		x += hspd;
 		y += vspd;
-		
-		if(inputmag){
-			
-			switch(dirfacing){
-				
-				case 0: 
-				case 90:
-				case 180:
-				case 270:
-		}
-	}
 }
+	
+	#endregion
+			
+	#region
+		
+	case PLAYERRSTATE.ATTACK:
+		
+		
+	
