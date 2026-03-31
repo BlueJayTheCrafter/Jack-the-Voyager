@@ -1,4 +1,4 @@
-x -= 5;
+ x -= 5;
 
 image_xscale = -1;
 image_index += .2;
