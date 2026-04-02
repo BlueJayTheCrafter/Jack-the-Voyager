@@ -1,1 +1,0 @@
-draw_text_transformed(1250, yoffset, string(hp), 2, 2, 0);
