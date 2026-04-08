@@ -33,6 +33,17 @@ if(place_meeting(x, y + vspd, obj_stone)) {
     vspd = 0;
 }
 
+if (place_meeting(x, y + 1, obj_enemy_wheel )) && (keyboard_check_pressed(vk_space)) {
+    vspd = jump_height;
+}
+
+if(place_meeting(x, y + vspd, obj_enemy_wheel)) {
+    while (!place_meeting(x, y + sign(vspd), obj_enemy_wheel)) {
+        y = y + sign(vspd);
+    }
+    vspd = 0;
+}
+
 y += vspd
 
 switch(room) {
