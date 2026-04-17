@@ -30,7 +30,8 @@ if(place_meeting(x, y + vspd, obj_stone)) {
     while (!place_meeting(x, y + sign(vspd), obj_stone)) {
         y = y + sign(vspd);
     }
-    vspd = 0;
+    vspd = 0
+;
 }
 
 if (place_meeting(x, y + 1, obj_enemy_wheel )) && (keyboard_check_pressed(vk_space)) {
@@ -58,8 +59,3 @@ switch(room) {
 }
 
 shootCooldown -= 1;
-
-var _hor = clamp(target_x - x, -1, 1);
-var _ver = clamp(target_y - y, -1, 1);
-
-move_and_collide(_hor * move_speed, _ver + move_speed, [tilemap, obj_enemy_wheel]);
