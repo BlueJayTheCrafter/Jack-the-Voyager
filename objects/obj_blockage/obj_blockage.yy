@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_void",
+  "%Name":"obj_blockage",
   "eventList":[],
   "managed":true,
-  "name":"obj_void",
+  "name":"obj_blockage",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_void",
-    "path":"sprites/spr_void/spr_void.yy",
+    "name":"spr_blockage",
+    "path":"sprites/spr_blockage/spr_blockage.yy",
   },
   "spriteMaskId":null,
   "visible":true,

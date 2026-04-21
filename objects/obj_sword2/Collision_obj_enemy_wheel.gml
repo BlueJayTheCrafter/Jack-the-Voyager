@@ -1,4 +1,4 @@
-instance_destroy(obj_sword2);
+instance_destroy(self);
 
 with(other){
 	instance_destroy();
