@@ -18,7 +18,17 @@ switch(room){
 		
 	break;
 	
-	case rm_game2:
+	case rm_battle1:
+	
+		draw_set_halign(fa_left);
+		
+		draw_text(20, 20, "SCORE: "+string(score));
+		draw_text(20, 65, "LIVES: "+string(lives));
+		draw_set_color(c_black);
+		
+	break;
+	
+	case rm_puzzle2:
 	
 		draw_set_halign(fa_left);
 		
