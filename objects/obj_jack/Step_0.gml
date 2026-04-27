@@ -1,4 +1,4 @@
-vspd += grv;
+ vspd += grv;
 
 if (place_meeting(x, y + 1, obj_cobblestone)) && (keyboard_check_pressed(vk_space)) {
     vspd = jump_height;

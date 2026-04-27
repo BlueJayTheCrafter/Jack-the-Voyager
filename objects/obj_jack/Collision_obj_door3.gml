@@ -1,1 +1,1 @@
-room_goto(rm_puzzle2);
+room_goto_next();

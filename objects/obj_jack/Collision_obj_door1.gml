@@ -1,1 +1,1 @@
-room_goto(rm_battle1);
+room_goto_next();
