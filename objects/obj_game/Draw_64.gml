@@ -9,41 +9,15 @@ switch(room){
 	break;
 	
 	case rm_game1:
-	
-		draw_set_halign(fa_left);
-		
-		draw_text(20, 20, "SCORE: "+string(score));
-		draw_text(20, 65, "LIVES: "+string(lives));
-		draw_set_color(c_black);
-		
-	break;
-	
 	case rm_battle1:
-	
-		draw_set_halign(fa_left);
-		
-		draw_text(20, 20, "SCORE: "+string(score));
-		draw_text(20, 65, "LIVES: "+string(lives));
-		draw_set_color(c_black);
-		
-	break;
-	
 	case rm_puzzle1:
 	
 		draw_set_halign(fa_left);
-		
-		draw_text(20, 20, "SCORE: "+string(score));
-		draw_text(20, 65, "LIVES: "+string(lives));
 		draw_set_color(c_black);
+		
+		draw_text(20, 20, "SCORE: " + string(global.player_score));
+		draw_text(20, 65, "LIVES: " + string(global.player_lives));
 		
 	break;
-	
-	case rm_puzzle2:
-	
-		draw_set_halign(fa_left);
-		
-		draw_text(20, 20, "SCORE: "+string(score));
-		draw_text(20, 65, "LIVES: "+string(lives));
-		draw_set_color(c_black);
 }
 

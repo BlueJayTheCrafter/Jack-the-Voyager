@@ -75,6 +75,17 @@ switch(room) {
 		if(shootCooldown <= 0) {
 			instance_create_layer(x, y, "instances", obj_sword2);
 			shootCooldown = 45;
+			
+		}
+	}
+	
+	case rm_puzzle2:
+	
+	if(mouse_check_button(mb_left)) {
+		if(shootCooldown <= 0) {
+			instance_create_layer(x, y, "instances", obj_sword2);
+			shootCooldown = 45;
+			
 		}
 	}
 }
