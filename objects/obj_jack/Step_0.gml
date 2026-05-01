@@ -55,12 +55,23 @@ if(place_meeting(x, y + vspd, obj_enemy_wheel)) {
     vspd = 0;
 }
 
-if (place_meeting(x, y + 1, obj_blockage)) && (keyboard_check_pressed(vk_space)) {
+if (place_meeting(x, y + 1, obj_blockage1)) && (keyboard_check_pressed(vk_space)) {
     vspd = jump_height;
 }
 
-if (place_meeting(x, y + vspd, obj_blockage)) {
-    while (!place_meeting(x, y + sign(vspd), obj_blockage)) {
+if (place_meeting(x, y + vspd, obj_blockage1)) {
+    while (!place_meeting(x, y + sign(vspd), obj_blockage1)) {
+        y = y + sign(vspd);
+    }
+    vspd = 0;
+}
+
+if (place_meeting(x, y + 1, obj_blockage2)) && (keyboard_check_pressed(vk_space)) {
+    vspd = jump_height;
+}
+
+if (place_meeting(x, y + vspd, obj_blockage2)) {
+    while (!place_meeting(x, y + sign(vspd), obj_blockage2)) {
         y = y + sign(vspd);
     }
     vspd = 0;

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_blockage",
+  "%Name":"obj_target4_yes",
   "eventList":[],
   "managed":true,
-  "name":"obj_blockage",
+  "name":"obj_target4_yes",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_blockage",
-    "path":"sprites/spr_blockage/spr_blockage.yy",
+    "name":"spr_target4_yes",
+    "path":"sprites/spr_target4_yes/spr_target4_yes.yy",
   },
   "spriteMaskId":null,
   "visible":true,
