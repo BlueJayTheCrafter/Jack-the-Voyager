@@ -13,8 +13,8 @@ switch(room){
 		draw_set_halign(fa_left);
 		draw_set_color(c_red);
 		
-		draw_text(412, 300, "SCORE: " + string(global.player_score));
-		draw_text(412, 400, "LIVES: " + string(global.player_lives));
+		draw_text(250, 300, "SCORE: " + string(global.player_score));
+		draw_text(250, 400, "LIVES: " + string(global.player_lives));
 	
 	break;
 	
