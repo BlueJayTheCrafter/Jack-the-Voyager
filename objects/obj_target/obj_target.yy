@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_target1",
+  "%Name":"obj_target",
   "eventList":[],
   "managed":true,
-  "name":"obj_target1",
+  "name":"obj_target",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_target1",
-    "path":"sprites/spr_target1/spr_target1.yy",
+    "name":"spr_target",
+    "path":"sprites/spr_target/spr_target.yy",
   },
   "spriteMaskId":null,
   "visible":true,

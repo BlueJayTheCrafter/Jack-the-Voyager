@@ -102,3 +102,14 @@ switch(room) {
 }
 
 shootCooldown -= 1;
+
+if (room == rm_puzzle2){
+    var _targets_remaining = instance_number(obj_target2_yes) + 
+                             instance_number(obj_target3_yes) + 
+                             instance_number(obj_target4_yes);
+
+    if (_targets_remaining == 0){
+        with (obj_blockage1) instance_destroy();
+        with (obj_blockage2) instance_destroy();
+    }
+}
