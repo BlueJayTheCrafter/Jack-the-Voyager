@@ -1,7 +1,10 @@
 // Inherit the parent event
 event_inherited();
 
+audio_play_sound(snd_button_press, 0, false);
+
 if(instance_exists(obj_controls)) {
+	audio_play_sound(snd_button_press, 0, false);
 	instance_destroy(obj_controls);		
 }
 

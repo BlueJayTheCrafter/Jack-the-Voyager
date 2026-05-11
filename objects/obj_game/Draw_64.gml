@@ -1,6 +1,6 @@
 switch(room){
 	case rm_menu:
-	
+		
 		draw_set_halign(fa_left);
 		
 		draw_text(resW * 0.05,resH * 0.30,"Jack\nthe\nVoyager");
