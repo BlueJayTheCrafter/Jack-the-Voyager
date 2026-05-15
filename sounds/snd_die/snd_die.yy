@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_cave",
+  "%Name":"snd_die",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":23.614695,
+  "duration":0.3240136,
   "exportDir":"",
-  "name":"snd_cave",
+  "name":"snd_die",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_cave.mp3",
+  "soundFile":"snd_die.mp3",
   "volume":1.0,
 }
