@@ -15,6 +15,16 @@ switch(room){
 		
 		draw_text(250, 300, "SCORE: " + string(global.player_score));
 		draw_text(250, 400, "LIVES: " + string(global.player_lives));
+		
+	break;
+	
+	case rm_puzzle3:
+	
+		draw_set_halign(fa_left);
+		draw_set_color(c_red);
+		
+		draw_text(850, 100, "SCORE: " + string(global.player_score));
+		draw_text(850, 150, "LIVES: " + string(global.player_lives));
 	
 	break;
 	

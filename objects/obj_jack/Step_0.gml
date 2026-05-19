@@ -134,3 +134,12 @@ if(room == rm_puzzle2){
         with(obj_blockage2) instance_destroy();
     }
 }
+
+if(room == rm_battle2){
+    var _targets_remaining2 = instance_number(obj_archer);
+
+    if(_targets_remaining2 == 0){ 
+        with(obj_blockage1) instance_destroy();
+        with(obj_blockage2) instance_destroy();
+    }
+}
