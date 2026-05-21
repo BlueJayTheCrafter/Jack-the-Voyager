@@ -28,7 +28,7 @@ switch(room){
 	
 	break;
 	
-	case rm_game1:
+	case rm_game:
 	case rm_battle1:
 	case rm_battle2:
 	case rm_puzzle1:

@@ -2,4 +2,4 @@
 event_inherited();
 
 audio_play_sound(snd_button_press, 0, false);
-room_goto(rm_game1);
+room_goto(rm_game);

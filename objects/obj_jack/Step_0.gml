@@ -86,19 +86,25 @@ if (place_meeting(x, y + vspd, obj_blockage2)) {
 
 y += vspd
 
-if(room == rm_battle1){	
-	if device_mouse_check_button_pressed(0, mb_left) {
-		audio_play_sound(snd_cant_shoot, 1, false);
+if(room == rm_game){
+	if (mouse_check_button_pressed(mb_left)) {
+    
+    if (has_sword) {
 		if(shootCooldown <= 0) {
-			instance_create_layer(x, y, "instances", obj_sword2);
+	        var _sword = instance_create_layer(x, y, "Instances", obj_sword2);
+	        _sword .direction = point_direction(x, y, mouse_x, mouse_y);
+	        _sword .speed = 10;
 			shootCooldown = 120;
 			audio_stop_sound(snd_cant_shoot);
 			audio_play_sound(snd_shoot, 1, false);
-		}
-	}
+		    } else {
+		        audio_play_sound(snd_cant_shoot, 1, false);
+			}
+		}	
+	}	
 }
 
-if(room == rm_puzzle2){	
+if(room == rm_battle1){	
 	if device_mouse_check_button_pressed(0, mb_left) {
 		audio_play_sound(snd_cant_shoot, 1, false);
 		if(shootCooldown <= 0) {
@@ -119,6 +125,30 @@ if(room == rm_battle2){
 			audio_stop_sound(snd_cant_shoot);
 			audio_play_sound(snd_shoot, 1, false);
 		}
+	}
+}
+
+if(room == rm_puzzle1){	
+	if device_mouse_check_button_pressed(0, mb_left) {
+		audio_play_sound(snd_cant_shoot, 1, false);
+	}
+}
+
+if(room == rm_puzzle2){	
+	if device_mouse_check_button_pressed(0, mb_left) {
+		audio_play_sound(snd_cant_shoot, 1, false);
+		if(shootCooldown <= 0) {
+			instance_create_layer(x, y, "instances", obj_sword2);
+			shootCooldown = 120;
+			audio_stop_sound(snd_cant_shoot);
+			audio_play_sound(snd_shoot, 1, false);
+		}
+	}
+}
+
+if(room == rm_puzzle3){	
+	if device_mouse_check_button_pressed(0, mb_left) {
+		audio_play_sound(snd_cant_shoot, 1, false);
 	}
 }
 

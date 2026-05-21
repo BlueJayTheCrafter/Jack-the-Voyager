@@ -75,7 +75,7 @@
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"rm_battle1","path":"rooms/rm_battle1/rm_battle1.yy",},},
     {"id":{"name":"rm_battle2","path":"rooms/rm_battle2/rm_battle2.yy",},},
-    {"id":{"name":"rm_game1","path":"rooms/rm_game1/rm_game1.yy",},},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_puzzle1","path":"rooms/rm_puzzle1/rm_puzzle1.yy",},},
     {"id":{"name":"rm_puzzle2","path":"rooms/rm_puzzle2/rm_puzzle2.yy",},},
@@ -128,7 +128,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_game1","path":"rooms/rm_game1/rm_game1.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_battle1","path":"rooms/rm_battle1/rm_battle1.yy",},},
     {"roomId":{"name":"rm_puzzle1","path":"rooms/rm_puzzle1/rm_puzzle1.yy",},},
     {"roomId":{"name":"rm_puzzle2","path":"rooms/rm_puzzle2/rm_puzzle2.yy",},},

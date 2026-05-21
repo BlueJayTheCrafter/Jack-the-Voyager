@@ -5,3 +5,4 @@ shootCooldown = 0;
 hurt = false;
 move_speed = 1;
 tilemap = layer_tilemap_get_id("Tile_collision")
+has_sword = false;
