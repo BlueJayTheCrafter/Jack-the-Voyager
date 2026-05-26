@@ -40,5 +40,22 @@ switch(room){
 		draw_text(20, 65, "LIVES: " + string(global.player_lives));
 		
 	break;
+	
+	case rm_death_screen:
+		
+		draw_set_halign(fa_center);
+		var c = c_red;
+		draw_text_transformed_color(
+			room_width/2, 150, "GAME OVER", 
+			3, 3, 0, c,c,c,c, 1
+		);
+		draw_text(
+			room_width/2, 500,
+			@"FINAL SCORE: "+string(global.player_score)
+		);
+		draw_text(
+			room_width/2, 400,
+			@"PRESS ENTER TO RESTART"
+		);
 }
 

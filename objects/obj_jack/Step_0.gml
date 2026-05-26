@@ -1,4 +1,4 @@
- vspd += grv;
+vspd += grv;
 
 if (place_meeting(x, y + 1, obj_cobblestone)) && (keyboard_check_pressed(vk_space)) {
 	audio_play_sound(snd_jump, 1, false);
@@ -88,17 +88,16 @@ y += vspd
 
 if(room == rm_game){
 	if (mouse_check_button_pressed(mb_left)) {
-    
-    if (has_sword) {
-		if(shootCooldown <= 0) {
-	        var _sword = instance_create_layer(x, y, "Instances", obj_sword2);
-	        _sword .direction = point_direction(x, y, mouse_x, mouse_y);
-	        _sword .speed = 10;
-			shootCooldown = 120;
-			audio_stop_sound(snd_cant_shoot);
-			audio_play_sound(snd_shoot, 1, false);
-		    } else {
-		        audio_play_sound(snd_cant_shoot, 1, false);
+	    if (has_sword) {
+			if(shootCooldown <= 0) {
+		        var _sword = instance_create_layer(x, y, "Instances", obj_sword2);
+		        _sword .direction = point_direction(x, y, mouse_x, mouse_y);
+		        _sword .speed = 10;
+				shootCooldown = 120;
+				audio_stop_sound(snd_cant_shoot);
+				audio_play_sound(snd_shoot, 0, false);
+			    } else {
+			        audio_play_sound(snd_cant_shoot, 0, false);
 			}
 		}	
 	}	
@@ -172,4 +171,8 @@ if(room == rm_battle2){
         with(obj_blockage1) instance_destroy();
         with(obj_blockage2) instance_destroy();
     }
+}
+
+if(global.player_lives <= 0){
+	room_goto(rm_death_screen);
 }
