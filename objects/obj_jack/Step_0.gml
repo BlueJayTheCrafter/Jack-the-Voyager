@@ -113,6 +113,10 @@ if(room == rm_battle1){
 			audio_play_sound(snd_shoot, 1, false);
 		}
 	}
+	if(global.player_lives <= 0){
+		audio_play_sound(snd_die, 0, false);
+		room_goto(rm_death_screen);
+	}
 }
 
 if(room == rm_battle2){	
@@ -124,6 +128,10 @@ if(room == rm_battle2){
 			audio_stop_sound(snd_cant_shoot);
 			audio_play_sound(snd_shoot, 1, false);
 		}
+	}
+	if(global.player_lives <= 0){
+		audio_play_sound(snd_die, 0, false);
+		room_goto(rm_death_screen);
 	}
 }
 
@@ -143,11 +151,19 @@ if(room == rm_puzzle2){
 			audio_play_sound(snd_shoot, 1, false);
 		}
 	}
+	if(global.player_lives <= 0){
+		audio_play_sound(snd_die, 0, false);
+		room_goto(rm_death_screen);
+	}
 }
 
 if(room == rm_puzzle3){	
 	if device_mouse_check_button_pressed(0, mb_left) {
 		audio_play_sound(snd_cant_shoot, 1, false);
+	}
+	if(global.player_lives <= 0){
+		audio_play_sound(snd_die, 0, false);
+		room_goto(rm_death_screen);
 	}
 }
 
@@ -173,6 +189,10 @@ if(room == rm_battle2){
     }
 }
 
-if(global.player_lives <= 0){
-	room_goto(rm_death_screen);
+if(room == rm_death_screen){
+	audio_stop_sound(snd_game);
+	audio_stop_all();
+	if keyboard_check_pressed(vk_enter){
+		game_restart();
+	}
 }
