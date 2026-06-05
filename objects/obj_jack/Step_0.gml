@@ -116,6 +116,7 @@ if(room == rm_battle1){
 	if(global.player_lives <= 0){
 		audio_play_sound(snd_die, 0, false);
 		room_goto(rm_death_screen);
+		instance_destroy(obj_pause);
 	}
 }
 
@@ -193,6 +194,8 @@ if(room == rm_death_screen){
 	audio_stop_sound(snd_game);
 	audio_stop_all();
 	if keyboard_check_pressed(vk_enter){
-		game_restart();
+		x = xstart
+		room_goto(rm_battle1);
+		room_restart();
 	}
 }
