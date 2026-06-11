@@ -57,5 +57,24 @@ switch(room){
 			room_width/2, 400,
 			@"PRESS ENTER TO RESTART"
 		);
+		
+	break;
+		
+	case rm_win_screen:
+		
+		draw_set_halign(fa_center);
+		var c = c_green;
+		draw_text_transformed_color(
+			room_width/2, 150, "YOU DID IT!!", 
+			3, 3, 0, c,c,c,c, 1
+		);
+		draw_text(
+			room_width/2, 500,
+			@"FINAL SCORE: "+string(global.player_score)
+		);
+		draw_text(
+			room_width/2, 400,
+			@"PRESS ENTER TO RESTART"
+		);
 }
 

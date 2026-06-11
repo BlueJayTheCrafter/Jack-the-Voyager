@@ -190,12 +190,27 @@ if(room == rm_battle2){
     }
 }
 
+if(room == rm_puzzle3){
+    var _targets_remaining3 = instance_number(obj_sword);
+
+    if(_targets_remaining3 == 0){ 
+        with(obj_blockage1) instance_destroy();
+        with(obj_blockage2) instance_destroy();
+    }
+}
+
 if(room == rm_death_screen){
 	audio_stop_sound(snd_game);
 	audio_stop_all();
 	if keyboard_check_pressed(vk_enter){
-		x = xstart
-		room_goto(rm_battle1);
-		room_restart();
+		game_restart();
+	}
+}
+
+if(room == rm_win_screen){
+	audio_stop_sound(snd_cave);
+	audio_stop_all();
+	if keyboard_check_pressed(vk_enter){
+		game_restart();
 	}
 }
